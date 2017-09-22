@@ -1,5 +1,5 @@
 body {
-    background-image: url(background.png);
+    background-image: url("background.png");
     background-repeat: repeat;
     margin: 0;
     font-size: 8pt;
@@ -8,7 +8,7 @@ body {
 }
 
 .top {
-    background-image: url(bannerbackground.png);
+    background-image: url("bannerbackground.png");
     background-repeat: repeat;
     text-align: center;
     margin: 0;
@@ -48,7 +48,7 @@ body {
 }
 
 .leftpart .rotten {
-    background-image: url(rottenbackground.png);
+    background-image: url("rottenbackground.png");
     background-repeat: repeat-x;
     background-size: 550px 83px;
     width: 550px;
@@ -145,7 +145,7 @@ body {
     margin: 0 0 3em 0;
 }
 
-.leftpart .second .Times .times1 {
+.leftpart .second .times1 {
     border: 2px solid grey;
     background-color: #E1D697;
     margin-bottom: 0;
@@ -160,13 +160,13 @@ body {
     clear: both;
 }
 
-.leftpart .second .Times .times2 {
+.leftpart .second .times2 {
     border: 0;
     margin-bottom: 0;
     clear: both;
 }
 
-.leftpart .second .Times .times21 {
+.leftpart .second .times21 {
     float: left;
     width: 35px;
     margin-right: 5px;
