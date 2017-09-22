@@ -94,42 +94,6 @@ body {
     vertical-align: top;
 }
 
-.leftpart .first .Variety {
-    border: 0;
-    margin: 0 0 3em 0;
-}
-
-
-.leftpart .first .var1 {
-    border: 2px solid grey;
-    background-color: #E1D697;
-    margin-bottom: 0;
-    padding: 8px;
-    font-weight: bold;
-    overflow: hidden;
-    clear: both;
-}
-
-.leftpart .first .var11 {
-    border: 0;
-    margin: 0 5px 0 0;
-    float: left;
-    width: 25px;
-}
-
-.leftpart .first .var2 {
-    border: 0;
-    margin-bottom: 0;
-    clear: both;
-}
-
-.leftpart .first .var21 {
-    float: left;
-    width: 35px;
-    border: 0;
-    margin: 0 5px 0 0;
-}
-
 .leftpart .second {
     border: 0;
     margin: 0;
@@ -140,37 +104,41 @@ body {
     vertical-align: top;
 }
 
-.leftpart .second .Times {
+
+.Variety,.Times {
     border: 0;
     margin: 0 0 3em 0;
 }
 
-.leftpart .second .times1 {
+
+.var1,.times1 {
     border: 2px solid grey;
     background-color: #E1D697;
     margin-bottom: 0;
     padding: 8px;
     font-weight: bold;
+    overflow: hidden;
     clear: both;
 }
 
-.leftpart .second .times11 {
+.var11,.times11 {
+    border: 0;
+    margin: 0 5px 0 0;
     float: left;
     width: 25px;
-    margin-right: 5px;
-    clear: both;
 }
 
-.leftpart .second .times2 {
+.var2,.times2 {
     border: 0;
     margin-bottom: 0;
     clear: both;
 }
 
-.leftpart .second .times21 {
+.var21,.times21 {
     float: left;
     width: 35px;
-    margin-right: 5px;
+    border: 0;
+    margin: 0 5px 0 0;
     clear: both;
 }
 
@@ -198,11 +166,6 @@ body {
 }
 
 .movielist dt{
-    margin-top: 1em;
-    font-weight: bold;
-}
-
-.movielist #ltop{
     margin-top: 1em;
     font-weight: bold;
 }
